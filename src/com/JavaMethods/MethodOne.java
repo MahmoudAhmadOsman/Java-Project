@@ -20,7 +20,7 @@ public class MethodOne {
 	
 	
 	static void sampleMethod() {
-		System.out.println("Sample method is here!");
+		System.out.println("Sample method is here first!");
 		System.out.println("________________________");
 	}
 	
@@ -28,9 +28,9 @@ public class MethodOne {
 	
 	static void computeNumber(int a, int b, int r) {
 		
-		System.out.println("The result of the second method is: ");
+		System.out.println("The result of the second method is: " +  a + b * r);
 		
-		System.out.println(a + b * r);
+		
 		
 
 	}
@@ -41,7 +41,7 @@ public class MethodOne {
 		//sample method is called here
 		sampleMethod();
 		
-		// Now call the method
+		// Now call the second method
 		computeNumber(50, 15, 85);
 	}
 
