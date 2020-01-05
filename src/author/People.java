@@ -5,7 +5,7 @@ public class People {
 	String name;
 	String country;
 	String city;
-	int age;
+	String phone;
 	
 	
 	
@@ -16,7 +16,7 @@ public class People {
 		name      = "Mahmoud Osman";
 		country   = "USA";
 		city      = "Coon Rapids";
-        age       = 35; 
+        phone       = "555-555-5555"; 
 	}
 	
 	
@@ -27,11 +27,11 @@ public class People {
 		
 		People Mahmoud = new People(); 
 		// Print the value of the above variable
-	    System.out.println("My name is " + 
-				Mahmoud.name + "." + "and I am from " + 
-			    		Mahmoud.country + ". " + "I live in " +
-				Mahmoud.city + " and I am " +
-			    		Mahmoud.age + " years old!"); 
+	    System.out.println("Hello Everyone. \n My name is " + 
+				Mahmoud.name + ".\n" + " I am from " + 
+			    Mahmoud.country + ".\n " + "I live in " +
+				Mahmoud.city + ".\n My phone number is " +
+			    Mahmoud.phone + "."); 
 
 	}
 
