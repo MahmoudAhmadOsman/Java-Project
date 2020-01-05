@@ -1,4 +1,4 @@
-package trusom;
+package author;
 
 public class Calculate {
 

@@ -1,4 +1,4 @@
-package phone.brands.trusom.com;
+package phone.brands.com;
 
 public class Phone {
 	

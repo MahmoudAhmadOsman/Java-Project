@@ -1,7 +1,7 @@
 /**
  * 
  */
-package trusom;
+package author;
 
 /**
  * @author Mahmoud Osman
@@ -17,18 +17,10 @@ public class Students {
 		String fName ="Mahnoud";
 		String lName ="Osman";
 
-		System.out.println(fName + " " + lName);
+		System.out.println("Author name is " + fName + " " + lName);
 		
 		
-		System.out.println("_______________________");
-		
-		
-		int num1 = 50;
-		int num2 = 100;
-		int result = num1 + num2;
-		
-		
-		System.out.println("The result of these two numbers is: " + result);
+	
 		
 		
 		

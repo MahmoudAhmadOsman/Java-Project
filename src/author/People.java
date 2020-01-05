@@ -1,4 +1,4 @@
-package trusom;
+package author;
 
 public class People {
 
@@ -27,8 +27,11 @@ public class People {
 		
 		People Mahmoud = new People(); 
 		// Print the value of the above variable
-	    System.out.println("My name is " + Mahmoud.name + "." + "and I am from " 
-		+ Mahmoud.country + ". " + "I live in " + Mahmoud.city + " and I am " + Mahmoud.age + " years old!"); 
+	    System.out.println("My name is " + 
+				Mahmoud.name + "." + "and I am from " + 
+			    		Mahmoud.country + ". " + "I live in " +
+				Mahmoud.city + " and I am " +
+			    		Mahmoud.age + " years old!"); 
 
 	}
 
