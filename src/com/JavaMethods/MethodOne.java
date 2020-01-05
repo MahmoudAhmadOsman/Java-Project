@@ -30,9 +30,6 @@ public class MethodOne {
 		
 		System.out.println("The result of the second method is: " +  a + b * r);
 		
-		
-		
-
 	}
 	
 	
