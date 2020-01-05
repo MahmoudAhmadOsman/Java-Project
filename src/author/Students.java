@@ -18,22 +18,7 @@ public class Students {
 		String lName ="Osman";
 
 		System.out.println("Author name is " + fName + " " + lName);
-		
-		
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 		
 	}
 
