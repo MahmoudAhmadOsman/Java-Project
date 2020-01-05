@@ -17,18 +17,15 @@ public class MethodOverloading {
 	 * @param args
 	 */
 	
-	//Method one
+//Method One
 	static int methodOne(int num1, int num2, int num3,  int num4) {
 		return num1 + num2 *  num3 / num4;
 	}
 	
-	
-	//Method two - overloads method one
-	
+//Method Two - overloads method one
 	static double methodTwo(double num1, double num2, double num3,  double num4) {
 		return num1 + num2 *  num3 / num4;
 	}
-	
 	
 	public static void main(String[] args) {
 		// Call  method one or function
