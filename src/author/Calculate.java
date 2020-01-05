@@ -10,12 +10,11 @@ public class Calculate {
 	
 	public Calculate() {
 		//2.  TODO Auto-generated constructor stub
-		
+	
 		ItemName = "Java Heros [Book Title]";
 		Author = "Mahmoud Osman";
 		price = 189.64;
 		ISBN = "L58-G36-WS981";
-		
 		
 	}
 
