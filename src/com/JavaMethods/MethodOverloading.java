@@ -22,8 +22,8 @@ public class MethodOverloading {
 		return num1 + num2 *  num3 / num4;
 	}
 	
-//Method Two - overloads method one
-	static double methodTwo(double num1, double num2, double num3,  double num4) {
+//This Method  - overloads method one
+	static double methodOne(double num1, double num2, double num3,  double num4) {
 		return num1 + num2 *  num3 / num4;
 	}
 	
@@ -32,8 +32,8 @@ public class MethodOverloading {
 		int callMethodone = methodOne(5, 5 , 155, 12);
 		System.out.println("The result is: " + callMethodone);
 		
-		//Method two - overrides method one because method one was int ad method two is double data type
-		double callMethodTwo = methodTwo(16.65, 15.5, 120.2, 42.32);
+		//this - overrides method one because method one was int and now method one is double data type
+		double callMethodTwo = methodOne(16.65, 15.5, 120.2, 42.32);
 		System.out.println("Method two results are: " + String.format( "%.2f", callMethodTwo));
 
 	}

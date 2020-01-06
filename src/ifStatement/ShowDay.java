@@ -12,7 +12,10 @@ public class ShowDay {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
+	
+	
+	
+public static void main(String[] args) {
 		int day = 6;
 		switch (day) {
 		  case 1:

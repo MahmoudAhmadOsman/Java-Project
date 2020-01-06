@@ -7,8 +7,11 @@ public class ForEach {
 		
 		int[] Numbers = {17, 32, 45, 96,85, 655};
 		
-		for(int n : Numbers) {
-			  System.out.println(Numbers);
+		//print index 1
+		//System.out.println(Numbers[0]);
+		
+		for(int number : Numbers) {
+			  System.out.println(number);
 		}
 
 		
