@@ -3,7 +3,7 @@ package com.oop.ClassObject;
 public class HistoryBook {
 	
 	
-	//Class Attributes
+//Class Attributes
 	String title = "Lost Nation";
 	String author = "James Aweky";
 	int publishedYear = 1945;
@@ -12,7 +12,7 @@ public class HistoryBook {
 	public static void main(String[] args) {
 
 		
-		// Now create a class object
+	// Now create a class object
 		HistoryBook bookName =  new HistoryBook();
 		HistoryBook book2 = new HistoryBook();
 		HistoryBook book3 = new HistoryBook();
@@ -26,19 +26,19 @@ public class HistoryBook {
 				+ "\n The book price is " + "$" 
 				+ bookName.price + "US dollars.");
 		
-		/*
-		 * ============= Book 2 Section ==========
-		 */
+/*
+ * ============= Book 2 Section ==========
+ */
 		System.out.println("______________________________________");
 		System.out.println("______________Book 2__________________");
 		
 		//Book Two
 		
-		book2.title = "Wars Fought In 1812";
-		book2.author = "Abdel Raouf";
-		book2.publishedYear = 1942;
-		book2.price = 83.47;
-		
+			book2.title = "Wars Fought In 1812";
+			book2.author = "Abdel Raouf";
+			book2.publishedYear = 1942;
+			book2.price = 83.47;
+			
 		System.out.println("The title of book 2 is => " + book2.title + ".\n"
 				+ "The author of book 2 is " + book2.author + ". \n"
 				+  "The year that " + book2.title + " book is published was " + book2.publishedYear + ".\n"
