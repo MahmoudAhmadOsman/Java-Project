@@ -6,7 +6,6 @@ public class Person {
 	private String phone;
 	private String address;
 
-
 	public Person(String firstName, String lastName, String phone, String address) {
 		super();
 		this.firstName = firstName;
@@ -15,13 +14,8 @@ public class Person {
 		this.address = address;
 	}
 
-
-
-
 	public void print() {
 		System.out.println(firstName + " " + lastName + " " + phone + " " + address);
 	}
-
-
 
 }
