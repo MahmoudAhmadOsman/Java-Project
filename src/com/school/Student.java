@@ -16,7 +16,7 @@ public class Student extends Person {
 		System.out.println("__________________________________________ ");
 		super.print();
 
-		// Now print the additional arguments which are in GPA, gradYear in this case
+		// Now print the additional arguments which is GPA, gradYear in this case
 		System.out.println("Student GPA is: " + gpa);
 		System.out.println("Graduation year is: " + gradYear);
 	}
