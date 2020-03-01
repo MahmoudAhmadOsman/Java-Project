@@ -11,6 +11,6 @@ public class Professor extends Person {
 	public void print() {
 		System.out.println("About Professor ");
 		super.print();
-	}
+}
 
 }
