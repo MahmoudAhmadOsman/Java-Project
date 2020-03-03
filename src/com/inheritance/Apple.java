@@ -3,7 +3,7 @@ package com.inheritance;
 public class Apple extends Food {
 
 	public void foodName() {
-		System.out.println("The food name Apple");
+		System.out.println("Food name is Apple");
 	}
 
 	public void foodType() {
